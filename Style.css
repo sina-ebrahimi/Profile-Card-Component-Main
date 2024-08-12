@@ -1,0 +1,234 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(KumbhSans-VariableFont_YOPQ-wght.ttf);
+}
+
+@media (min-width: 376px){
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 650px 320px, -320px -550px;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.background1 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    z-index: 0;
+    width: 330px;
+}
+.image1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    z-index: 1;
+    margin-top: -3rem;
+}
+.table0 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0.8rem;
+}
+.ID {
+    position: relative;
+    align-content: center;
+    background-color: white;
+    width: 330px;
+    height: 140px;
+    font-family: myFirstFont;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.description {
+    border-top-style: solid;
+    border-top-color: hsl(0, 0%, 94%);
+    border-top-width: 2px;
+    background-color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 330px;
+    height: 30px;
+    font-family: myFirstFont;
+    padding: 20px;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+.Name {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+.Age {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 4px;
+}
+.City {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 4.9rem;
+}
+.Followers-Number {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.Followers-title {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 10px;
+}
+.Likes-Number {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.Likes-title {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 10px;
+}
+.Photos-Number {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.Photos-title {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: 10px;
+}
+}
+
+@media (max-width: 375px){
+    body {
+        background-color: hsl(185, 75%, 39%);
+        background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: 150px 180px, -780px -630px;
+    }
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .background1 {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        z-index: 0;
+        width: 330px;
+    }
+    .image1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: white;
+        z-index: 1;
+        margin-top: -3rem;
+    }
+    .table0 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 0.8rem;
+    }
+    .ID {
+        position: relative;
+        align-content: center;
+        background-color: white;
+        width: 330px;
+        height: 140px;
+        font-family: myFirstFont;
+        text-align: center;
+        margin-top: -4px;
+    }
+    
+    .description {
+        border-top-style: solid;
+        border-top-color: hsl(0, 0%, 94%);
+        border-top-width: 2px;
+        background-color: white;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        width: 330px;
+        height: 30px;
+        font-family: myFirstFont;
+        padding: 20px;
+    }
+    th {
+        text-align: center;
+    }
+    td {
+        text-align: center;
+    }
+    .Name {
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+    }
+    .Age {
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 4px;
+    }
+    .City {
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+        font-size: 13px;
+        padding-top: 4.9rem;
+    }
+    .Followers-Number {
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .Followers-title {
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .Likes-Number {
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .Likes-title {
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .Photos-Number {
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .Photos-title {
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+        font-size: 10px;
+    }
+    } 
